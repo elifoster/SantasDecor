@@ -1,0 +1,53 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "cube_column"
+	},
+	"variants": {
+		"family": {
+			"blaze": {
+				"textures": {
+					"side": "santasdecor:blocks/chiseled_quartz/side/blaze",
+					"end": "santasdecor:blocks/chiseled_quartz/end/blaze"
+				}
+			},
+			"burnt": {
+				"textures": {
+					"side": "santasdecor:blocks/chiseled_quartz/side/burnt",
+					"end": "santasdecor:blocks/chiseled_quartz/end/burnt"
+				}
+			},
+			"crying": {
+				"textures": {
+					"side": "santasdecor:blocks/chiseled_quartz/side/crying",
+					"end": "santasdecor:blocks/chiseled_quartz/end/crying"
+				}
+			},
+			"ender": {
+				"textures": {
+					"side": "santasdecor:blocks/chiseled_quartz/side/ender",
+					"end": "santasdecor:blocks/chiseled_quartz/end/ender"
+				}
+			},
+			"ice": {
+				"textures": {
+					"side": "santasdecor:blocks/chiseled_quartz/side/ice",
+					"end": "santasdecor:blocks/chiseled_quartz/end/ice"
+				}
+			},
+			"porked": {
+				"textures": {
+					"side": "santasdecor:blocks/chiseled_quartz/side/porked",
+					"end": "santasdecor:blocks/chiseled_quartz/end/porked"
+				}
+			},
+			"slime": {
+				"textures": {
+					"side": "santasdecor:blocks/chiseled_quartz/side/slime",
+					"end": "santasdecor:blocks/chiseled_quartz/end/slime"
+				}
+			}
+		},
+		"inventory": [{}]
+	}
+}

@@ -1,0 +1,66 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "cube_all"
+	},
+	"variants": {
+		"family": {
+			"blaze": {
+				"textures": {
+					"all": "santasdecor:blocks/paver/blaze"
+				}
+			},
+			"bone": {
+				"textures": {
+					"all": "santasdecor:blocks/paver/bone"
+				}
+			},
+			"burnt": {
+				"textures": {
+					"all": "santasdecor:blocks/paver/burnt"
+				}
+			},
+			"crying": {
+				"textures": {
+					"all": "santasdecor:blocks/paver/crying"
+				}
+			},
+			"ender": {
+				"textures": {
+					"all": "santasdecor:blocks/paver/ender"
+				}
+			},
+			"flesh": {
+				"textures": {
+					"all": "santasdecor:blocks/paver/flesh"
+				}
+			},
+			"ice": {
+				"textures": {
+					"all": "santasdecor:blocks/paver/ice"
+				}
+			},
+			"leather": {
+				"textures": {
+					"all": "santasdecor:blocks/paver/leather"
+				}
+			},
+			"porked": {
+				"textures": {
+					"all": "santasdecor:blocks/paver/porked"
+				}
+			},
+			"slime": {
+				"textures": {
+					"all": "santasdecor:blocks/paver/slime"
+				}
+			},
+			"snow": {
+				"textures": {
+					"all": "santasdecor:blocks/paver/snow"
+				}
+			}
+		},
+		"inventory": [{}]
+	}
+}

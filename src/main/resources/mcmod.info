@@ -1,0 +1,16 @@
+[
+{
+  "modid": "santasdecor",
+  "name": "Santa's Decor",
+  "description": "A decorative mod by SatanicSanta. Creative name, I know.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "https://minecraft.curseforge.com/projects/santas-decor",
+  "updateUrl": "",
+  "authorList": ["SatanicSanta"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

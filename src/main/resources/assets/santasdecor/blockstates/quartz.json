@@ -1,0 +1,60 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "cube_bottom_top"
+	},
+	"variants": {
+		"family": {
+			"blaze": {
+				"textures": {
+					"side": "santasdecor:blocks/quartz/side/blaze",
+					"bottom": "santasdecor:blocks/quartz/bottom/blaze",
+					"top": "santasdecor:blocks/quartz/top/blaze"
+				}
+			},
+			"burnt": {
+				"textures": {
+					"side": "santasdecor:blocks/quartz/side/burnt",
+					"bottom": "santasdecor:blocks/quartz/bottom/burnt",
+					"top": "santasdecor:blocks/quartz/top/burnt"
+				}
+			},
+			"crying": {
+				"textures": {
+					"side": "santasdecor:blocks/quartz/side/crying",
+					"bottom": "santasdecor:blocks/quartz/bottom/crying",
+					"top": "santasdecor:blocks/quartz/top/crying"
+				}
+			},
+			"ender": {
+				"textures": {
+					"side": "santasdecor:blocks/quartz/side/ender",
+					"bottom": "santasdecor:blocks/quartz/bottom/ender",
+					"top": "santasdecor:blocks/quartz/top/ender"
+				}
+			},
+			"ice": {
+				"textures": {
+					"side": "santasdecor:blocks/quartz/side/ice",
+					"bottom": "santasdecor:blocks/quartz/bottom/ice",
+					"top": "santasdecor:blocks/quartz/top/ice"
+				}
+			},
+			"porked": {
+				"textures": {
+					"side": "santasdecor:blocks/quartz/side/porked",
+					"bottom": "santasdecor:blocks/quartz/bottom/porked",
+					"top": "santasdecor:blocks/quartz/top/porked"
+				}
+			},
+			"slime": {
+				"textures": {
+					"side": "santasdecor:blocks/quartz/side/slime",
+					"bottom": "santasdecor:blocks/quartz/bottom/slime",
+					"top": "santasdecor:blocks/quartz/top/slime"
+				}
+			}
+		},
+		"inventory": [{}]
+	}
+}

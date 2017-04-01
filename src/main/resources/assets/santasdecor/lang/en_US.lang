@@ -1,0 +1,121 @@
+tile.santasdecor:brick.blaze.name=Blaze Brick
+tile.santasdecor:chiseled_quartz.blaze.name=Chiseled Blaze Quartz
+tile.santasdecor:cobblestone.blaze.name=Blaze Cobblestone
+tile.santasdecor:log_blaze.name=Blaze Log
+tile.santasdecor:plank.blaze.name=Blaze Plank
+tile.santasdecor:quartz.blaze.name=Blaze Quartz
+tile.santasdecor:stone.blaze.name=Blaze Stone
+tile.santasdecor:chiseled.blaze.name=Chiseled Blaze Brick
+tile.santasdecor:pillar_blaze.name=Blaze Pillar
+tile.santasdecor:paver.blaze.name=Blaze Paver
+tile.santasdecor:glass.blaze.name=Blaze Glass
+
+tile.santasdecor:brick.bone.name=Bone Brick
+tile.santasdecor:cobblestone.bone.name=Bone Cobblestone
+tile.santasdecor:log_bone.name=Bone Log
+tile.santasdecor:plank.bone.name=Bone Plank
+tile.santasdecor:stone.bone.name=Bone Stone
+tile.santasdecor:chiseled.bone.name=Chiseled Bone Brick
+tile.santasdecor:paver.bone.name=Bone Paver
+tile.santasdecor:glass.bone.name=Bone Glass
+
+tile.santasdecor:brick.burnt.name=Burnt Bricks
+tile.santasdecor:chiseled_quartz.burnt.name=Chiseled Burnt Quartz
+tile.santasdecor:cobblestone.burnt.name=Burnt Cobblestone
+tile.santasdecor:log_burnt.name=Burnt Log
+tile.santasdecor:plank.burnt.name=Burnt Plank
+tile.santasdecor:quartz.burnt.name=Burnt Quartz
+tile.santasdecor:stone.burnt.name=Burnt Stone
+tile.santasdecor:chiseled.burnt.name=Chiseled Burnt Bricks
+tile.santasdecor:pillar_burnt.name=Burnt Pillar
+tile.santasdecor:paver.burnt.name=Burnt Paver
+tile.santasdecor:glass.burnt.name=Burnt Glass
+
+tile.santasdecor:brick.ender.name=Ender Brick
+tile.santasdecor:chiseled_quartz.ender.name=Chiseled Ender Quartz
+tile.santasdecor:cobblestone.ender.name=Ender Cobblestone
+tile.santasdecor:log_ender.name=Ender Log
+tile.santasdecor:plank.ender.name=Ender Plank
+tile.santasdecor:quartz.ender.name=Ender Quartz
+tile.santasdecor:stone.ender.name=Ender Stone
+tile.santasdecor:chiseled.ender.name=Chiseled Ender Brick
+tile.santasdecor:pillar_ender.name=Ender Pillar
+tile.santasdecor:paver.ender.name=Ender Paver
+tile.santasdecor:glass.ender.name=Ender Glass
+
+tile.santasdecor:brick.flesh.name=Flesh Brick
+tile.santasdecor:cobblestone.flesh.name=Flesh Cobblestone
+tile.santasdecor:log_flesh.name=Flesh Log
+tile.santasdecor:plank.flesh.name=Flesh Plank
+tile.santasdecor:stone.flesh.name=Flesh Stone
+tile.santasdecor:chiseled.flesh.name=Chiseled Flesh Brick
+tile.santasdecor:paver.flesh.name=Flesh Paver
+tile.santasdecor:glass.flesh.name=Flesh Glass
+
+tile.santasdecor:brick.ice.name=Icy Brick
+tile.santasdecor:chiseled_quartz.ice.name=Chiseled Icy Quartz
+tile.santasdecor:cobblestone.ice.name=Icy Cobblestone
+tile.santasdecor:log_ice.name=Icy Log
+tile.santasdecor:plank.ice.name=Icy Plank
+tile.santasdecor:quartz.ice.name=Icy Quartz
+tile.santasdecor:stone.ice.name=Icy Stone
+tile.santasdecor:chiseled.ice.name=Chiseled Icy Brick
+tile.santasdecor:pillar_ice.name=Icy Pillar
+tile.santasdecor:paver.ice.name=Icy Paver
+tile.santasdecor:glass.ice.name=Icy Glass
+
+tile.santasdecor:brick.leather.name=Leather Brick
+tile.santasdecor:cobblestone.leather.name=Leather Cobblestone
+tile.santasdecor:log_leather.name=Leather Log
+tile.santasdecor:plank.leather.name=Leather Plank
+tile.santasdecor:stone.leather.name=Leather Stone
+tile.santasdecor:chiseled.leather.name=Chiseled Leather Brick
+tile.santasdecor:paver.leather.name=Leather Paver
+tile.santasdecor:glass.leather.name=Leather Glass
+
+tile.santasdecor:brick.slime.name=Slimy Brick
+tile.santasdecor:chiseled_quartz.slime.name=Chiseled Slimy Quartz
+tile.santasdecor:cobblestone.slime.name=Slimy Cobblestone
+tile.santasdecor:log_slime.name=Slimy Log
+tile.santasdecor:plank.slime.name=Slimy Plank
+tile.santasdecor:quartz.slime.name=Slimy Quartz
+tile.santasdecor:stone.slime.name=Slimy Stone
+tile.santasdecor:chiseled.slime.name=Chiseled Slimy Brick
+tile.santasdecor:pillar_slime.name=Slimy Pillar
+tile.santasdecor:paver.slime.name=Slimy Paver
+tile.santasdecor:glass.slime.name=Slimy Glass
+
+tile.santasdecor:brick.snow.name=Snowy Brick
+tile.santasdecor:cobblestone.snow.name=Snowy Cobblestone
+tile.santasdecor:log_snow.name=Snowy Log
+tile.santasdecor:plank.snow.name=Snowy Plank
+tile.santasdecor:stone.snow.name=Snowy Stone
+tile.santasdecor:chiseled.snow.name=Chiseled Snowy Brick
+tile.santasdecor:paver.snow.name=Snowy Paver
+tile.santasdecor:glass.snow.name=Snowy Glass
+
+tile.santasdecor:brick.crying.name=Crying Brick
+tile.santasdecor:chiseled_quartz.crying.name=Chiseled Crying Quartz
+tile.santasdecor:cobblestone.crying.name=Crying Cobblestone
+tile.santasdecor:log_crying.name=Crying Log
+tile.santasdecor:plank.crying.name=Crying Plank
+tile.santasdecor:quartz.crying.name=Crying Quartz
+tile.santasdecor:stone.crying.name=Crying Stone
+tile.santasdecor:chiseled.crying.name=Chiseled Crying Brick
+tile.santasdecor:pillar_crying.name=Crying Pillar
+tile.santasdecor:paver.crying.name=Crying Paver
+tile.santasdecor:glass.crying.name=Crying Glass
+
+tile.santasdecor:brick.porked.name=Porked Brick
+tile.santasdecor:chiseled_quartz.porked.name=Chiseled Porked Quartz
+tile.santasdecor:cobblestone.porked.name=Porked Cobblestone
+tile.santasdecor:log_porked.name=Porked Log
+tile.santasdecor:plank.porked.name=Porked Plank
+tile.santasdecor:quartz.porked.name=Porked Quartz
+tile.santasdecor:stone.porked.name=Porked Stone
+tile.santasdecor:chiseled.porked.name=Chiseled Porked Brick
+tile.santasdecor:pillar_porked.name=Porked Pillar
+tile.santasdecor:paver.porked.name=Porked Paver
+tile.santasdecor:glass.porked.name=Porked Glass
+
+itemGroup.Santa's Decor=Santa's Decor

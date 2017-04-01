@@ -1,0 +1,66 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "cube_all"
+	},
+	"variants": {
+		"family": {
+			"blaze": {
+				"textures": {
+					"all": "santasdecor:blocks/chiseled/blaze"
+				}
+			},
+			"bone": {
+				"textures": {
+					"all": "santasdecor:blocks/chiseled/bone"
+				}
+			},
+			"burnt": {
+				"textures": {
+					"all": "santasdecor:blocks/chiseled/burnt"
+				}
+			},
+			"crying": {
+				"textures": {
+					"all": "santasdecor:blocks/chiseled/crying"
+				}
+			},
+			"ender": {
+				"textures": {
+					"all": "santasdecor:blocks/chiseled/ender"
+				}
+			},
+			"flesh": {
+				"textures": {
+					"all": "santasdecor:blocks/chiseled/flesh"
+				}
+			},
+			"ice": {
+				"textures": {
+					"all": "santasdecor:blocks/chiseled/ice"
+				}
+			},
+			"leather": {
+				"textures": {
+					"all": "santasdecor:blocks/chiseled/leather"
+				}
+			},
+			"porked": {
+				"textures": {
+					"all": "santasdecor:blocks/chiseled/porked"
+				}
+			},
+			"slime": {
+				"textures": {
+					"all": "santasdecor:blocks/chiseled/slime"
+				}
+			},
+			"snow": {
+				"textures": {
+					"all": "santasdecor:blocks/chiseled/snow"
+				}
+			}
+		},
+		"inventory": [{}]
+	}
+}
