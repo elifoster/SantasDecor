@@ -31,5 +31,8 @@ public class SantasDecor {
     @Mod.EventHandler
     void onInitializationPhase(FMLInitializationEvent event) {
         BlockHandler.registerRecipes();
+        if (event.getSide() == Side.CLIENT) {
+            BlockHandler.registerTESRs();
+        }
     }
 }

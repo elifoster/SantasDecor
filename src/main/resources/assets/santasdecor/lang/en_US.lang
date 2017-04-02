@@ -118,4 +118,7 @@ tile.santasdecor:pillar_porked.name=Porked Pillar
 tile.santasdecor:paver.porked.name=Porked Paver
 tile.santasdecor:glass.porked.name=Porked Glass
 
+# Ceramics
+tile.santasdecor:mug.name=Ceramic Mug
+
 itemGroup.Santa's Decor=Santa's Decor

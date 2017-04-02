@@ -1,5 +1,9 @@
 package io.github.elifoster.santasdecor.blocks;
 
+import io.github.elifoster.santasdecor.Config;
+import io.github.elifoster.santasdecor.blocks.mug.BlockMug;
+import io.github.elifoster.santasdecor.blocks.mug.TileEntityMug;
+import io.github.elifoster.santasdecor.blocks.mug.TileEntityMugRenderer;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.properties.PropertyEnum;
@@ -9,6 +13,7 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.client.model.ModelLoader;
+import net.minecraftforge.fml.client.registry.ClientRegistry;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
@@ -31,6 +36,8 @@ public class BlockHandler {
     public static Block CHISELED_QUARTZ;
     public static Block STONE;
     public static Block GLASS;
+
+    public static Block MUG;
 
     public static final Map<Family, Block> logs = new HashMap<>();
     public static final Map<Family, Block> quartzPillars = new HashMap<>();
@@ -64,6 +71,11 @@ public class BlockHandler {
         STONE = setup(new BlockDecorStandard(), "stone");
         GLASS = setup(new BlockGlass(), "glass");
 
+        if (Config.enableCeramicMug) {
+            MUG = setup(new BlockMug(), "mug", ItemBlock::new);
+            GameRegistry.registerTileEntity(TileEntityMug.class, MODID + ":mug");
+        }
+
         for (Family family : Family.LOOKUP) {
             if (family.isEnabled()) {
                 Block log = setup(new BlockDecorRotatable(Material.WOOD), "log_" + family.getName(), ItemBlock::new);
@@ -86,6 +98,7 @@ public class BlockHandler {
         registerModel((BlockDecorStandard) STONE);
         registerModel((BlockDecorStandard) QUARTZ);
         registerModel((BlockDecorStandard) CHISELED_QUARTZ);
+
         registerModel(Item.getItemFromBlock(GLASS), BlockGlass.FAMILY);
         for (Block log : logs.values()) {
             ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(log), 0, new ModelResourceLocation(log.getRegistryName(), "inventory"));
@@ -93,6 +106,14 @@ public class BlockHandler {
         for (Block log : quartzPillars.values()) {
             ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(log), 0, new ModelResourceLocation(log.getRegistryName(), "inventory"));
         }
+        if (Config.enableCeramicMug) {
+            ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(MUG), 0, new ModelResourceLocation(MUG.getRegistryName(), "inventory"));
+        }
+    }
+
+    @SideOnly(Side.CLIENT)
+    public static void registerTESRs() {
+        ClientRegistry.bindTileEntitySpecialRenderer(TileEntityMug.class, new TileEntityMugRenderer());
     }
 
     private static void registerModel(BlockDecorStandard block) {
@@ -171,5 +192,12 @@ public class BlockHandler {
           "X",
           "X",
           'X', new ItemStack(QUARTZ, 1, meta)));
+
+        if (Config.enableCeramicMug) {
+            GameRegistry.addRecipe(new ShapedOreRecipe(MUG,
+              "X X",
+              " X ",
+              'X', Blocks.HARDENED_CLAY));
+        }
     }
 }

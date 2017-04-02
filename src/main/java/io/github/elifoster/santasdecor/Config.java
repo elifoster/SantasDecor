@@ -16,6 +16,8 @@ public class Config {
     public static boolean enableCrying;
     public static boolean enablePorked;
 
+    public static boolean enableCeramicMug;
+
     public static boolean enderBalance;
     public static boolean cryingBalance;
 
@@ -43,6 +45,7 @@ public class Config {
 
         //Other
         config.addCustomCategoryComment("Other blocks", "Toggling blocks that are not considered to be in any block family.");
+        enableCeramicMug = config.get("Other blocks", "Toggle the Ceramic Mug", true).getBoolean();
 
         //Tweaking
         config.addCustomCategoryComment("Tweaking", "Things that can be used to tweak stuff, without enabling/disabling them.");

@@ -1,0 +1,106 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "santasdecor:mug",
+		"textures": {
+			"texture": "minecraft:blocks/hardened_clay_stained_white"
+		}
+	},
+	"variants": {
+		"facing": {
+			"south": {
+				"y": 180
+			},
+			"north": {},
+			"east": {
+				"y": 90
+			},
+			"west": {
+				"y": 270
+			}
+		},
+		"color": {
+			"black": {
+				"textures": {
+					"texture": "minecraft:blocks/hardened_clay_stained_black"
+				}
+			},
+			"blue": {
+				"textures": {
+					"texture": "minecraft:blocks/hardened_clay_stained_blue"
+				}
+			},
+			"brown": {
+				"textures": {
+					"texture": "minecraft:blocks/hardened_clay_stained_brown"
+				}
+			},
+			"cyan": {
+				"textures": {
+					"texture": "minecraft:blocks/hardened_clay_stained_cyan"
+				}
+			},
+			"gray": {
+				"textures": {
+					"texture": "minecraft:blocks/hardened_clay_stained_gray"
+				}
+			},
+			"green": {
+				"textures": {
+					"texture": "minecraft:blocks/hardened_clay_stained_green"
+				}
+			},
+			"light_blue": {
+				"textures": {
+					"texture": "minecraft:blocks/hardened_clay_stained_light_blue"
+				}
+			},
+			"lime": {
+				"textures": {
+					"texture": "minecraft:blocks/hardened_clay_stained_lime"
+				}
+			},
+			"magenta": {
+				"textures": {
+					"texture": "minecraft:blocks/hardened_clay_stained_magenta"
+				}
+			},
+			"orange": {
+				"textures": {
+					"texture": "minecraft:blocks/hardened_clay_stained_orange"
+				}
+			},
+			"pink": {
+				"textures": {
+					"texture": "minecraft:blocks/hardened_clay_stained_pink"
+				}
+			},
+			"purple": {
+				"textures": {
+					"texture": "minecraft:blocks/hardened_clay_stained_purple"
+				}
+			},
+			"red": {
+				"textures": {
+					"texture": "minecraft:blocks/hardened_clay_stained_red"
+				}
+			},
+			"silver": {
+				"textures": {
+					"texture": "minecraft:blocks/hardened_clay_stained_silver"
+				}
+			},
+			"white": {
+				"textures": {
+					"texture": "minecraft:blocks/hardened_clay_stained_white"
+				}
+			},
+			"yellow": {
+				"textures": {
+					"texture": "minecraft:blocks/hardened_clay_stained_yellow"
+				}
+			}
+		},
+		"inventory": [{}]
+	}
+}
