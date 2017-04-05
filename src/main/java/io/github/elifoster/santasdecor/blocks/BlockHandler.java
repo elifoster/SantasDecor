@@ -135,6 +135,13 @@ public class BlockHandler {
                 addAllRecipesForFamily(family);
             }
         }
+
+        if (Config.enableCeramicMug) {
+            GameRegistry.addRecipe(new ShapedOreRecipe(MUG,
+              "X X",
+              " X ",
+              'X', Blocks.HARDENED_CLAY));
+        }
     }
 
     // TODO: OreDict
@@ -192,12 +199,5 @@ public class BlockHandler {
           "X",
           "X",
           'X', new ItemStack(QUARTZ, 1, meta)));
-
-        if (Config.enableCeramicMug) {
-            GameRegistry.addRecipe(new ShapedOreRecipe(MUG,
-              "X X",
-              " X ",
-              'X', Blocks.HARDENED_CLAY));
-        }
     }
 }
